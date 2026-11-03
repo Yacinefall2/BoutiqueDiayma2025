@@ -8,7 +8,7 @@ Réalisé par **Yacine Fall**.
 | | |
 |---|---|
 | Code d'origine | https://github.com/elhadjiousmane/BoutiqueDiayma2025 |
-| Exécutable Windows | **[LIEN DRIVE À AJOUTER]** |
+| Exécutable Windows | https://drive.google.com/file/d/1JV6Se9-_vtOsu1Y8nvxgR8NMspW8E9Xw/view?usp=sharing |
 
 ![Accueil en wolof](docs/accueil-wolof.png)
 
@@ -146,7 +146,7 @@ L'exécutable est autonome, .NET n'a pas besoin d'être installé. Décompresser
 
 ## 10. Lien vers l'exécutable
 
-**[LIEN DRIVE À AJOUTER]**
+https://drive.google.com/file/d/1JV6Se9-_vtOsu1Y8nvxgR8NMspW8E9Xw/view?usp=sharing
 
 ## 11. Partie optionnelle
 
