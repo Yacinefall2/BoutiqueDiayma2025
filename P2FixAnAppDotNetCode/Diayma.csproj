@@ -27,12 +27,4 @@
     <Compile Remove="Models\SessionCart.cs" />
   </ItemGroup>
 
-  <ItemGroup>
-    <EmbeddedResource Remove="Resources\Models\Order.en.resx" />
-  </ItemGroup>
-
-<ItemGroup>
-    <None Include="Resources\Models\ViewModels\Order.en.resx" />
-  </ItemGroup>
-
 </Project>

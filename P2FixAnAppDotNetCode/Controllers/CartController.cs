@@ -28,7 +28,15 @@ namespace P2FixAnAppDotNetCode.Controllers
 
             if (product != null)
             {
-                _cart.AddItem(product, 1);
+                int dejaAuPanier = ((Cart)_cart).Lines
+                    .Where(l => l.Product.Id == id)
+                    .Sum(l => l.Quantity);
+
+                // On ne dépasse jamais le stock disponible
+                if (dejaAuPanier < product.Stock)
+                {
+                    _cart.AddItem(product, 1);
+                }
                 return RedirectToAction("Index");
             }
             else
