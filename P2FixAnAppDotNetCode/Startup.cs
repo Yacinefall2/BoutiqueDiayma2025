@@ -34,7 +34,7 @@ namespace P2FixAnAppDotNetCode
             services.AddTransient<IOrderRepository, OrderRepository>();
             services.AddMemoryCache();
             services.AddSession();
-            services.AddMvc()
+            services.AddMvc(o => o.EnableEndpointRouting = false)
                 .AddViewLocalization(
                     LanguageViewLocationExpanderFormat.Suffix,
                     opts => { opts.ResourcesPath = "Resources"; })
